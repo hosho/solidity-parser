@@ -418,3 +418,8 @@ contract multilineReturn {
       5;
   }
 }
+
+contract GnosisInterpolations {
+    uint constant x = 2;
+    EventFactory constant eventFactory = EventFactory({{EventFactory}});
+}
