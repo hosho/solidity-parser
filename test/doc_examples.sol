@@ -446,6 +446,7 @@ contract GnosisInterpolations {
 
 contract structWithFunctionDefinition {
   struct Fn {
+    bytes32 a;
     function(bytes32) internal constant returns(bool) startConditions;
     function(bytes32) internal constant endConditions;
   }
